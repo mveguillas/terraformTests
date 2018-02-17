@@ -6,6 +6,7 @@ provider "aws" {
 data "aws_availability_zones" "available" {}
 
 variable "availability_zones" {
+  type = "list"
   default = ["eu-central-1b", "eu-central-1a"]
 }
 
@@ -15,7 +16,7 @@ variable "server_port" {
 }
 
 variable "external_port" {
-  description = "external port for the web server"
+  description = "external port for the web server lalala"
   default     = 80
 }
 
