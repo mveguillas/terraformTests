@@ -16,7 +16,7 @@ variable "server_port" {
 }
 
 variable "external_port" {
-  description = "external port for the web server lalala"
+  description = "external port for the web server"
   default     = 80
 }
 
